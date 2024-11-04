@@ -1,0 +1,32 @@
+* What is modules?
+    Modules is a file containing code written in python by someone which can be imported and used inside another python program.
+    example: pip install pandas
+
+* Types of Modules
+    - Build-in Modules (preinstalled) 
+        example: os, random
+    - External Modules (install using pip) 
+        example: pandas, pyjoke, flask
+
+* what is PIP?
+    It is the package manager for Python, allowing users to install and manage software packages written in Python.
+
+* What is REPL?
+    REPl stand for Read, Evaluate Print Loop.It allows user to run single line Python code interactively while working on a project or learning the language.
+
+* Comment:
+    Single line comment 
+        # ........
+
+    multi lines comment
+        """ ......
+        """"
+        ..........
+        OR
+        '''.......
+        ..........
+        '''
+
+
+* Variables
+    a
