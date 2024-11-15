@@ -1,3 +1,5 @@
+// notes
+
 * What is modules?
     Modules is a file containing code written in python by someone which can be imported and used inside another python program.
     example: pip install pandas
