@@ -1,3 +1,5 @@
+// notes
+
 * What is modules?
     Modules is a file containing code written in python by someone which can be imported and used inside another python program.
     example: pip install pandas
@@ -27,6 +29,102 @@
         ..........
         '''
 
+------------------------------------------ CHAPTER 2 ------------------------------------------------
 
 * Variables
-    a
+    - A variable is a name given to the memory location in a program.
+    - In many programming language we specify variable types (like: int, float, string)
+    - Python automatically detect the type of data in a Variables. 
+    - In Python we only give variable name and value.
+      example: 
+            a = 31
+            b = 34.11
+            c = "hello"
+            d = True
+
+* Different types of Data types in Python
+    - Integer
+    - Float
+    - String
+    - Boolean
+    - None
+
+
+* Rules to write variable name
+    - Variables name can contain alphabets, digits, underscores.
+    - Variables name can only start with alphabets and underscores.
+    - Variables name can't start with digits.
+    - No white space is allowed to be used inside a variable name.
+
+    correct example:         incorrect example: 
+        abhi_1                  1_abhi
+        _abhi                   1 abhi
+        abhi_                   abhi 1
+        ab1hi                   @abhi
+
+
+* Operators in Python
+    - Arthematics operators (+ , - , * , / etc)
+    - Assignment operators (= , += , -= , *= , /=, etc)
+    - Comparison operators ( == , >= , > , < , <=, !=, etc)
+    - Logical operators (and , or , not )
+
+    Arthematics Operators Example
+        a = 10
+        b = 20
+        
+        print(a+b) # 30
+        print(b-a) # 10
+        print(a*b) # 200
+        print(b/a) # 2.0
+
+    Assignment Operators Example
+        a = 10 # value 10 assign to a
+        b = 20 # value 20 assign to a
+        a -= 2 # 2 is substracted from the value of a then resultant will assign to a ( a = a - 2)
+        b += 3 # 3 is added to the value of b then resultant will assign to b (b = b + 3)
+        a *= 4 # a is multiplied by 4 then resultant will assign to a (a = a * 4)
+        b /= 5 # b is divided by 5 then resultant will assign to b (b = b / 5)
+
+    Comparison Operators Example
+        a = 10
+        b = 20
+        c = 10
+
+        a == b  # False  
+        a > c   # False
+        a >= c  # True
+        a <= b  # True
+        a != c  # False
+
+    Logical Operators Example
+        OR
+            - If any one is true then resultant will be true
+            - If both is false then resultant will be false
+        AND
+            - If both is true then resultant will be true
+            - If any one is false then resultant will be false
+        NOT
+            - If it is true then result will be false
+            - If it is false then result will be true
+
+* Data Types in python 
+    There are mainly 5 data types in python
+        1. Integer
+        2. Float
+        3. String
+        4. Boolean
+        5. None
+
+* We can convert valid data value from one type to others. Valid value is most important thing here because if we try to convert invalid values like "hello" to the integer then it will give us ERROR.
+    Example: a = "31"   #data type <str>
+        b = int(a) #data type <int>
+
+
+* How we take input in python?
+    For input value from a user we use "input()" keyword. We can also write some message inside the (" "). 
+    Example: a = input("Enter here")
+
+    By default, Python take every input in string data type.
+    We use type conversion to convert input value from string to the desired data type.
+    Example: a = int(input("Enter a number"))  # a will store a integer variable. 
