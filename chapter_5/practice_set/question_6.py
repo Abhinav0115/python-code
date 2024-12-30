@@ -5,6 +5,9 @@ Create and empty dictionary and allow 4 friends to enter their favorite language
 
 fav_lang = {}
 
+
+# Here, I used conditional statement to check if the count is not equal to 4, then take the input from the user and add it to the dictionary.
+# We can also solve this question without using the conditional statement as we know that we have to take input from 4 friends only.
 count = 0
 while count !=4:
     name= input("Enter your name: ")
