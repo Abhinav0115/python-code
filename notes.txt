@@ -128,6 +128,3 @@
     By default, Python take every input in string data type.
     We use type conversion to convert input value from string to the desired data type.
     Example: a = int(input("Enter a number"))  # a will store a integer variable. 
-
-
-

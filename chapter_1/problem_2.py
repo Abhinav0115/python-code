@@ -1,0 +1,1 @@
+#Use REPL to write a table of 2 in python.
