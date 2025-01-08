@@ -1,0 +1,3 @@
+ Hello world, We are the developer of this game.
+ We developed this game for the fun.
+ many of you, recommend feature that we will add in the future.
