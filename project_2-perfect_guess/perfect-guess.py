@@ -6,9 +6,7 @@ If the player's guess the higher than the actual number, the program displays "l
 hint: use the random module
 '''
 
-
 from random import randint
-
 
 def guess_number():
     guesses = 0
@@ -26,7 +24,6 @@ def guess_number():
 
         elif player_guessed_number < actual_number:
             print("Please entered higher number ")    
-
         
     print("You have Guessed the number Correctly!")
     print(f"Total number of attemps takes to guess the number {actual_number} is: {guesses}")
