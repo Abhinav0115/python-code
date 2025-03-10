@@ -3,7 +3,7 @@ We are going to write a program that generate a random number and ask the user t
 
 If the player's guess the higher than the actual number, the program displays "lower number please". Similarly if the user's guess is too low, the program prints "higher number please". When the user guess the correct number, the program display the number of guesses the player used to arrive at the number.
 
-hint: use the random module
+hint: use the random module 
 '''
 
 from random import randint
