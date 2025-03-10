@@ -10,7 +10,7 @@ Note: You have to use the random module to select the snake, water, or gun rando
 Example:
 Snake vs. Water: Snake wins.
 Water vs. Gun: Water wins.
-Gun vs. Snake: Gun wins.
+Gun vs. Snake: Gun wins. 
 
 '''
 import random
